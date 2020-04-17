@@ -58,7 +58,7 @@ echo tiemposform::hor2(2);
             <div class="col-lg-4">
 
 
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Tiempo Costa Rica &raquo;</a></p>
+                <p><a class="btn btn-default" href="">Tiempo Costa Rica &raquo;</a></p>
 
 <dl>
   <dt>Nombre</dt>
