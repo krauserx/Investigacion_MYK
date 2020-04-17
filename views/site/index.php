@@ -3,6 +3,8 @@
 /* @var $this yii\web\View */
 
 $this->title = 'Investigacion yiiframework';
+include 'serviciohoras.php';
+
 ?>
 
 
@@ -22,28 +24,34 @@ $this->title = 'Investigacion yiiframework';
             <div class="col-lg-4">
   
 
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Tiempo New York &raquo;</a></p>
+                <p><a class="btn btn-default"  >Tiempo New York &raquo;</a></p>
 
 <dl>
   <dt>Nombre</dt>
-  <dd>Dicho de una mujer: Viva, pronta y aguda.</dd>
-  <dt>Fecha</dt>
-  <dd>Dicho de las personas, animales o cosas: Abundar y bullir en un lugar.</dd>
-  <dt>Hora</dt>
-  <dd>En la moral católica, deseo de bienes terrenos y, en especial, apetito desordenado de placeres deshonestos.</dd>
+  <dd><?php
+echo tiemposform::hor1(1);
+?></dd>
+  <dt>Fecha y Hora</dt>
+  <dd><?php
+echo tiemposform::hor1(2);
+?></dd></dd>
+
 </dl>
             </div>
             <div class="col-lg-4">
 
                 <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Tiempo Belgrade&raquo;</a></p>
 
- <dl>
+<dl>
   <dt>Nombre</dt>
-  <dd>Dicho de una mujer: Viva, pronta y aguda.</dd>
-  <dt>Fecha</dt>
-  <dd>Dicho de las personas, animales o cosas: Abundar y bullir en un lugar.</dd>
-  <dt>Hora</dt>
-  <dd>En la moral católica, deseo de bienes terrenos y, en especial, apetito desordenado de placeres deshonestos.</dd>
+  <dd><?php
+echo tiemposform::hor2(1);
+?></dd>
+  <dt>Fecha y Hora</dt>
+  <dd><?php
+echo tiemposform::hor2(2);
+?></dd>
+
 </dl>
             </div>
             <div class="col-lg-4">
@@ -51,13 +59,16 @@ $this->title = 'Investigacion yiiframework';
 
                 <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Tiempo Costa Rica &raquo;</a></p>
 
- <dl>
+<dl>
   <dt>Nombre</dt>
-  <dd>Dicho de una mujer: Viva, pronta y aguda.</dd>
-  <dt>Fecha</dt>
-  <dd>Dicho de las personas, animales o cosas: Abundar y bullir en un lugar.</dd>
-  <dt>Hora</dt>
-  <dd>En la moral católica, deseo de bienes terrenos y, en especial, apetito desordenado de placeres deshonestos.</dd>
+  <dd><?php
+echo tiemposform::hor3(1);
+?></dd>
+  <dt>Fecha y Hora</dt>
+  <dd><?php
+echo tiemposform::hor3(2);
+?></dd>
+
 </dl>
             </div>
         </div>
