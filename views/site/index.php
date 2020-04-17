@@ -21,10 +21,10 @@ include 'serviciohoras.php';
     <div class="body-content">
 
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4" id='clickname'>
   
 
-                <p><a class="btn btn-default"  >Tiempo New York &raquo;</a></p>
+                <p><a class="btn btn-default"  href="TiempoNY">Tiempo New York &raquo;</a></p>
 
 <dl>
   <dt>Nombre</dt>
@@ -38,9 +38,10 @@ echo tiemposform::hor1(2);
 
 </dl>
             </div>
+
             <div class="col-lg-4">
 
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Tiempo Belgrade&raquo;</a></p>
+                <p><a class="btn btn-default" href=''>Tiempo Belgrade&raquo;</a></p>
 
 <dl>
   <dt>Nombre</dt>
